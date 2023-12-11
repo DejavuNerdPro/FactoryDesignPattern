@@ -1,0 +1,26 @@
+                                     FACTORY DESIGN PATTERN
+				=====================================================================
+				
+Definition : Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
+
+Advantages
+------------------
+Encapsulation:
+The process of creating an object is encapsulated in the factory method, providing a clear and consistent interface for creating objects.
+
+Code Reusability:
+The pattern encourages the reuse of existing code. New ConcreteCreators can be added without modifying existing client code.
+
+Disadvantages
+-------------------
+Complexity
+Run-Time Overhead
+Increased Number of Classes
+
+
+Support Opened/Closed Principle (SOLID principles)
+Open for Extension:
+This means that the behavior of a module can be extended or augmented without modifying its source code. You should be able to add new functionality to a class without altering its existing code.
+
+Closed for Modification: (Cannot be modified the code)
+Once a class has been defined and implemented, its source code should not be changed to add new behavior. Instead, new functionality should be introduced through extension mechanisms.
