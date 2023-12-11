@@ -72,17 +72,20 @@ public class SuperMan implements Human{
 	@Override
 	public void saveLife() {
 		this.popularIndex++;
-		this.popularIndex=Integer.parseInt(strength)+1;
+		//this.popularIndex=Integer.parseInt(strength)+1;
+		System.out.println("THE SUPER MAN SAVED.");
 	}
 
 	@Override
 	public int power(int index) {
 		this.popularIndex=index;
+		System.out.println("SUPER MAN POWER");
 		return index;
 	}
 
 	@Override
 	public String popular() {
+		System.out.println(" SUPER MAN POPULAR INDEX.");
 		return this.strength+this.popularIndex;
 	}
 	

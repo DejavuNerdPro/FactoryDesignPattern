@@ -59,17 +59,20 @@ public class SpiderMan implements Human{
 	@Override
 	public void saveLife() {
 		this.popularIndex++;
-		this.popularIndex=Integer.parseInt(power)+1;
+		//this.popularIndex=Integer.parseInt(power)+1;
+		System.out.println("Spider Man Saved.");
 	}
 
 	@Override
 	public int power(int index) {
 		this.popularIndex=index;
+		System.out.println("Spider Popularity : ");
 		return index;
 	}
 
 	@Override
 	public String popular() {
+		System.out.println("The Spider Popular Index : ");
 		return this.power+this.popularIndex;
 	}
 	
