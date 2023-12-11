@@ -1,3 +1,8 @@
-public class SpiderManCreator extends Creator{
+public class SpiderManCreator implements Creator{
+
+	@Override
+	public Human factoryMethod() {
+		return new SpiderMan();
+	}
 
 }

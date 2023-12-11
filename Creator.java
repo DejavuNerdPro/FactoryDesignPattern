@@ -1,4 +1,3 @@
-public abstract Creator{
+public abstract interface Creator{
     public abstract Human factoryMethod();
-    
 }
